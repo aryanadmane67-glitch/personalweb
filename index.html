@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f1b33, #1a2b4a);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .profile-container {
+            background: rgba(255, 255, 255, 0.05);
+            width: 900px;
+            border-radius: 20px;
+            padding: 30px;
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .top-section {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+
+        .profile-pic {
+            width: 130px;
+            height: 130px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, #5a8fff, #6c4bff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            opacity: 0.7;
+        }
+
+        .section-title {
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            border-left: 5px solid #6c4bff;
+            padding-left: 10px;
+        }
+
+        .about-box, .skills-box, .project-box {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .skills-list span {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 8px 14px;
+            border-radius: 50px;
+            margin-right: 8px;
+            font-size: 13px;
+            display: inline-block;
+        }
+
+        .projects li {
+            margin-bottom: 8px;
+            opacity: 0.8;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            opacity: 0.6;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+
+        <div class="top-section">
+            
+            <div>
+                <h1>Aditi Admane</h1>
+                <div class="subtitle">SY-Student• CSE-Department </div>
+            </div>
+        </div>
+
+        <div class="section-title">About Me</div>
+        <div class="about-box">
+            Hi! I am a learner aiming to be creative web designer and developer who loves making clean, modern, and asthetic websites.
+            I enjoy working on beautiful UI, smooth animations, and minimal layouts.
+        </div>
+
+        <div class="section-title">Skills</div>
+        <div class="skills-box">
+            <div class="skills-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>C</span>
+            </div>
+        </div>
+
+        <div class="section-title">Projects</div>
+        <div class="project-box">
+            <ul class="projects">
+                <li> Farmer consumer website</li>
+                <li>Laser home security </li>
+                <li>Temperature monitoring and control system</li>
+            </ul>
+        </div>
+
+        <div class="footer">© 2025 Aditi — Personal portal</div>
+
+    </div>
+
+</body>
+</html>
